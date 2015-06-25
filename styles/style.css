@@ -1,0 +1,241 @@
+body {
+
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.container
+{
+    width:100%;
+    height:300px;
+    margin:auto;
+}
+
+/* Background */
+#background
+{
+    background: url(../img/bg.png);
+    background-size: cover;
+    height:100vh;
+    position: relative;
+}
+
+/* Logo */
+#logo{
+    position:relative;
+    top:20%;
+    -webkit-transition: -webkit-transform 1s ease-in-out;
+
+}
+
+.anim{
+    -webkit-transform:translate(-600px,-220px);
+
+}
+
+#go
+{
+    position: absolute;
+    text-align: center;
+    z-index: 10;
+    top:15%;	
+
+}
+
+img#soleil
+{
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    top:15%;	
+}
+
+/* Bouttons */
+
+#play {
+
+    height:47px;
+    width:159px;
+    border:1px solid black;
+    border-radius: 10px;
+    margin-top: 10%;
+    margin-left: 75%;
+    position:absolute;
+}
+
+#stop {
+    height:47px;
+    width:159px;
+    border:1px solid black;
+    border-radius: 10px;
+    margin-top: 15%;
+    margin-left: 75%;
+    position:absolute;
+}
+
+#pass {
+    height:47px;
+    width:159px;
+    border:1px solid black;
+    border-radius: 10px;
+    margin-top: 20%;
+    margin-left: 75%;
+    position:absolute;
+
+}
+
+#littleGrid {
+
+    height:47px;
+    width:159px;
+    margin-left: 32%;
+
+}
+
+#mediumGrid {
+
+    height:47px;
+    width:159px;
+
+}
+
+#bigGrid {
+
+    height:47px;
+    width:159px;
+
+}
+
+.buttons {
+    display: none;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 10px;
+}
+
+.buttons2 {
+    display:none;
+}
+
+
+
+
+/* animation logo */
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+    from {
+        -ms-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotating {
+    from {
+        -ms-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+.rotating {
+    -webkit-animation: rotating 4s linear infinite;
+    -moz-animation: rotating 4s linear infinite;
+    -ms-animation: rotating 4s linear infinite;
+    -o-animation: rotating 4s linear infinite;
+    animation: rotating 4s linear infinite;
+}
+
+
+/* CLASSE JS */
+
+.player1
+{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    background-color:black;
+}
+
+.player2
+{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    background-color:white;
+}
+
+.case{
+    float:left;
+    width:30px;
+    height:30px;
+}
+/*
+.topLeft
+{
+    background:url("../img/top-left.png");
+}
+
+.topRight
+{
+    background:url("../img/top-right.png");
+}
+
+.bottomLeft
+{
+    background:url("../img/bottom-left.png");
+}
+
+.bottomRight
+{
+    background:url("../img/bottom-right.png");
+}
+
+.sideLeft
+{
+    background:url("../img/left-side.png");
+}
+
+.sideRight
+{
+    background:url("../img/right-side.png");
+}
+
+.sideTop
+{
+    background:url("../img/top-side.png");
+}
+
+.sideBottom
+{
+    background:url("../img/bottom-side.png");
+}
+
+.center
+{
+    background:url("../img/center.png");
+}
+*/
+
+/* Golan */ 
+
+#golan {
+    margin:auto;
+    position:relative;
+    margin-top: -20%;
+}

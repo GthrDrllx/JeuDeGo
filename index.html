@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Jeu de Go</title>
+        <!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	 
+	 <!--[if lte IE 7]>
+	 <link rel="stylesheet" href="style-ie.css" />
+	 <![endif]-->
+    <link rel='stylesheet' href='styles/style.css'>
+
+
+    
+    
+</head>
+<body>
+
+
+		<!-- Background et logo anime -->
+		<div id="background">
+
+			<div id="logo">
+				<img src="img/go.svg" alt="Go !" id="go" class="container" >
+				<img src="img/soleil.svg" alt="Soleil rouge" id="soleil" class="container rotating">
+			</div>
+		<!-- DIVERS BOUTONS -->
+			<div class="container">			
+				<button class="buttons button--wayra button--border-thin button--round-s" id="littleGrid" href="#">9x9</button>
+				<button class="buttons button--wayra button--border-thin button--round-s" id="mediumGrid" href="#">13x13</button>
+				<button class="buttons button--wayra button--border-thin button--round-s" id="bigGrid" href="#">19x19</button>
+				<button class="buttons2 button--wayra button--border-thin button--round-s" id="play" href="#">Play</button>
+				<button class="buttons2 button--wayra button--border-thin button--round-s" id="stop" href="#">Stop</button>
+				<button class="buttons2 button--wayra button--border-thin button--round-s" id="pass" href="#">Pass</button>
+			</div>
+		</div>
+
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src='scripts/main.js'></script>
+</html>
